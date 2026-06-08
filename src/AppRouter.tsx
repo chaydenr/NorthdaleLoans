@@ -8,10 +8,10 @@ export const AppRouter = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Inputs" element={<Inputs />} />
-        <Route path="/Snowball" element={<Snowball />} />
-        <Route path="/Avalanche" element={<Avalanche />} />
+        <Route path="/NorthdaleLoans" element={<Home />} />
+        <Route path="/NorthdaleLoans/Inputs" element={<Inputs />} />
+        <Route path="/NorthdaleLoans/Snowball" element={<Snowball />} />
+        <Route path="/NorthdaleLoans/Avalanche" element={<Avalanche />} />
       </Routes>
     </div>
   );

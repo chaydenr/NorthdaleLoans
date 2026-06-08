@@ -10,8 +10,7 @@ export const Home = () => {
         Loan Calculator
       </h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-        congue erat tortor, at tristique sem semper a. Cras aliquet, nunc.
+        Welcome to the Northdale Loans Paydown Calulator app! Click Get Started below to enter your loan information.
       </p>
       <div className="startButton">
         <Link to="/Inputs">Get Started Now</Link>

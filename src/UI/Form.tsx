@@ -151,8 +151,9 @@ if (props.type === "update") {
   // checks if all inputs are valid, submits form values to local storage, and resets form
   useEffect(() => {
     if (validLoanName && validPrincipal && validInterest && validMinPay) {
+      const prefix = "NDL_"
       localStorage.setItem(
-        JSON.stringify(formCount),
+        JSON.stringify(prefix + formCount),
         JSON.stringify(loanInputData)
       );
     }

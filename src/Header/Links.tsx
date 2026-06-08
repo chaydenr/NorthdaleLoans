@@ -8,17 +8,17 @@ const Links = () => {
     <div className="header">
       <h2 className="header__red">
         <Logo />
-        <Link to="/" style={{paddingLeft: "10px"}}>Northdale Loans</Link>
+        <Link to="/NorthdaleLoans/" style={{paddingLeft: "10px"}}>Northdale Loans</Link>
       </h2>
       <ul className="list">
         <li>
-          <NavLink to="./Inputs">Inputs</NavLink>
+          <NavLink to="./NorthdaleLoans/Inputs">Inputs</NavLink>
         </li>
         <li>
-          <NavLink to="./Snowball">Snowball</NavLink>
+          <NavLink to="./NorthdaleLoans/Snowball">Snowball</NavLink>
         </li>
         <li>
-          <NavLink to="./Avalanche">Avalanche</NavLink>
+          <NavLink to="./NorthdaleLoans/Avalanche">Avalanche</NavLink>
         </li>
       </ul>
       <div className="header__profile"></div>

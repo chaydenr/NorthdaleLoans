@@ -4,7 +4,7 @@ import "./BackToInputs.scss";
 export const BackToInputs = () => {
   return (
     <div className="back-to-inputs">
-      <Link to="/Inputs">
+      <Link to="/NorthdaleLoans/Inputs">
         {" "}
         <svg
           width="14"

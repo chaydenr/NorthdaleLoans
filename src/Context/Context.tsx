@@ -147,13 +147,13 @@ const LoansProvider = (props: { children: ReactNode }) => {
   // on first render, create an iterable "savedCount" used for loan IDs.
   // if not first render, grab loans from local storage and save to loansArray
   useEffect(() => {
-    if (localStorage.length <= 0) {
+    if (!localStorage.getItem("savedCount")) {
       localStorage.setItem("savedCount", JSON.stringify(0));
     } else {
       if (firstRender) {
         let tempLoans: any[] = [];
         for (var i = 0; i < localStorage.length; i++) {
-          if (localStorage.key(i) != "savedCount") {
+          if (localStorage.key(i)?.startsWith("\"NDL")) {
             const currentRow = JSON.parse(
               localStorage.getItem(localStorage.key(i))
             );

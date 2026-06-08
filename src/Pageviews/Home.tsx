@@ -13,7 +13,7 @@ export const Home = () => {
         Welcome to the Northdale Loans Paydown Calulator app! Click Get Started below to enter your loan information.
       </p>
       <div className="startButton">
-        <Link to="/Inputs">Get Started Now</Link>
+        <Link to="/NorthdaleLoans/Inputs">Get Started Now</Link>
       </div>
     </div>
   );

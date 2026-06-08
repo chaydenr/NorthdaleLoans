@@ -1,0 +1,232 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": [
+      "./tsconfig.json"
+    ]
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "indent": [
+      "warn",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "prefer-const": [
+      "warn",
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
+    ],
+    "no-new-object": "warn",
+    "no-var": "warn",
+    "object-shorthand": "warn",
+    "quote-props": [
+      "warn",
+      "as-needed"
+    ],
+    "no-prototype-builtins": "warn",
+    "prefer-object-spread": "warn",
+    "no-array-constructor": "warn",
+    "array-callback-return": "warn",
+    "prefer-destructuring": "warn",
+    "quotes": [
+      "warn",
+      "single"
+    ],
+    "template-curly-spacing": [
+      "warn",
+      "never"
+    ],
+    "no-eval": "warn",
+    "no-useless-escape": "warn",
+    "func-style": [
+      "warn",
+      "expression"
+    ],
+    "no-loop-func": "warn",
+    "prefer-rest-params": "warn",
+    "default-param-last": "warn",
+    "no-new-func": "warn",
+    "space-before-function-paren": [
+      "warn",
+      "always"
+    ],
+    "space-before-blocks": [
+      "warn",
+      "always"
+    ],
+    "no-param-reassign": "warn",
+    "prefer-spread": "warn",
+    "function-paren-newline": [
+      "warn",
+      "multiline-arguments"
+    ],
+    "prefer-arrow-callback": [
+      "warn"
+    ],
+    "arrow-spacing": [
+      "warn"
+    ],
+    "arrow-parens": [
+      "warn",
+      "as-needed"
+    ],
+    "arrow-body-style": [
+      "warn",
+      "as-needed"
+    ],
+    "no-confusing-arrow": "warn",
+    "implicit-arrow-linebreak": "warn",
+    "no-dupe-class-members": "warn",
+    "class-methods-use-this": "warn",
+    "no-duplicate-imports": "warn",
+    "object-curly-newline": [
+      "warn",
+      {
+        "multiline": true
+      }
+    ],
+    "no-iterator": "warn",
+    "no-restricted-syntax": [
+      "warn",
+      "for-in",
+      "for-of"
+    ],
+    "generator-star-spacing": "warn",
+    "no-restricted-properties": [
+      "warn",
+      {
+        "object": "Math",
+        "property": "pow"
+      }
+    ],
+    "one-var": [
+      "warn",
+      "never"
+    ],
+    "no-multi-assign": "warn",
+    "no-plusplus": "warn",
+    "operator-linebreak": [
+      "off",
+      "none"
+    ],
+    "no-unused-vars": "warn",
+    "eqeqeq": [
+      "warn",
+      "smart"
+    ],
+    "no-nested-ternary": "warn",
+    "no-unneeded-ternary": "warn",
+    "no-mixed-operators": "warn",
+    "nonblock-statement-body-position": [
+      "warn",
+      "beside"
+    ],
+    "brace-style": [
+      "warn",
+      "1tbs",
+      {
+        "allowSingleLine": false
+      }
+    ],
+    "no-else-return": "warn",
+    "spaced-comment": "warn",
+    "keyword-spacing": [
+      "warn",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "space-infix-ops": "warn",
+    "eol-last": "warn",
+    "newline-per-chained-call": "warn",
+    "no-whitespace-before-property": "warn",
+    "padded-blocks": [
+      "warn",
+      "never"
+    ],
+    "no-multiple-empty-lines": "warn",
+    "space-in-parens": [
+      "warn",
+      "never"
+    ],
+    "array-bracket-spacing": [
+      "warn",
+      "never"
+    ],
+    "object-curly-spacing": [
+      "warn",
+      "always"
+    ],
+    "max-len": [
+      "warn",
+      {
+        "tabWidth": 2,
+        "code": 100,
+        "ignoreStrings": true
+      }
+    ],
+    "block-spacing": [
+      "warn",
+      "always"
+    ],
+    "comma-spacing": [
+      "warn",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "computed-property-spacing": [
+      "warn",
+      "never"
+    ],
+    "func-call-spacing": [
+      "warn",
+      "never"
+    ],
+    "key-spacing": [
+      "warn",
+      {
+        "beforeColon": false,
+        "afterColon": true
+      }
+    ],
+    "no-trailing-spaces": "warn",
+    "comma-style": [
+      "warn",
+      "last"
+    ],
+    "comma-dangle": [
+      "warn",
+      "always"
+    ],
+    "semi": [
+      "warn",
+      "always"
+    ],
+    "no-new-wrappers": "warn",
+    "radix": "warn",
+    "id-length": "warn",
+    "camelcase": "warn",
+    "new-cap": "warn",
+    "no-underscore-dangle": "warn",
+    "no-case-declarations": "warn"
+  },
+  "ignorePatterns": [
+    "src/**/*.test.ts",
+    "src/frontend/generated/*"
+  ]
+}

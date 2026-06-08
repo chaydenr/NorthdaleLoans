@@ -1,0 +1,47 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  background: #1a122b;
+  height: 428px;
+  border-radius: 0px 0px 20px 20px;
+  color: white;
+  padding-top: 3rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  font-family: "Open Sans";
+
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 16px;
+    padding-top: 1rem;
+  }
+}
+
+.startButton {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  a {
+    border-radius: 30px;
+    padding: 8px 130px 8px 130px;
+    background-color: #3662d1;
+    color: #fff;
+    border: none;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: #2f58be;
+  }
+  a:active {
+    box-shadow: inset 0 0 10px #16388f;
+  }
+}

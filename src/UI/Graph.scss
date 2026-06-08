@@ -1,0 +1,39 @@
+.graph {
+  display: flex;
+  height: 220px;
+  width: 30%;
+  max-width: 400px;
+  background-color: white;
+  border: solid 2px #c9c9c9;
+  border-radius: 10px;
+  overflow: hidden;
+
+  p {
+    display: flex;
+    color: #000;
+    font-weight: 600;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .title {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    padding: 20px 25px;
+    font-size: 20px;
+  }
+
+  .dollar-amount {
+    display: flex;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 25px;
+    overflow: hidden;
+  }
+
+  .line-chart {
+    width: 100%;
+    align-self: flex-end;
+  }
+}

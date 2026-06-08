@@ -1,0 +1,26 @@
+.av-snow {
+  background: #1a122b;
+  height: 287px;
+  border-radius: 0px 0px 20px 20px;
+  color: white;
+  padding-top: 2.2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  font-family: "Open Sans";
+  width: 100%;
+
+  .graph-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    padding-top: 30px;
+  }
+
+  h1 {
+    font-size: 40px;
+    padding: 20px 0px 10px 0px;
+  }
+}

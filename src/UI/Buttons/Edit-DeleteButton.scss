@@ -1,0 +1,20 @@
+.edit-delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  button {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    padding: 0px;
+    cursor: pointer;
+  }
+
+  button:active {
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+  }
+}
